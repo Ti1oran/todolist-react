@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #112840;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin: 20px 0 40px;
+}
