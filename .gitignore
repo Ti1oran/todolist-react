@@ -1,23 +1,43 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/frontend/node_modules/
+/backend/node_modules/
 
 # testing
-/coverage
+/frontend/coverage/
+/backend/coverage/
 
 # production
-/build
+/frontend/build/
+/backend/dist/  # Если вы используете систему сборки для бэкенда
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Backend specific
+/backend/.env
+/backend/node_modules/
+/backend/.DS_Store
+
+# Frontend specific
+/frontend/.DS_Store
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating System specific
+Thumbs.db

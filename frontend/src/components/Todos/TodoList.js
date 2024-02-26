@@ -3,7 +3,7 @@ import Todo from './Todo'
 function TodoList({ todo, deleteTodo }) {
   return (
     <div>
-      {!todo.length && <h2>Cписок задач пуст</h2>}
+      {!todo.length && <h2 style={{textAlign: 'center'}}>Cписок задач пуст</h2>}
       {todo.map((todo) => {
         return (
           <Todo

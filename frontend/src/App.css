@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+
+}
+
+body {
+  background-color: #112840;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin: 20px 0 40px;
+  text-align: center;
+}
+
+.main .container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
